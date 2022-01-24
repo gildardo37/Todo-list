@@ -10,6 +10,8 @@ const TodoList = ({ todos, removeTodo, updateTodo }) => {
     value: "",
   });
 
+  console.log(todos);
+
   const submitUpdate = (value) => {
     updateTodo(edit.id, value);
     setEdit({
